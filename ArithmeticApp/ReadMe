@@ -1,0 +1,4 @@
+This is a sample java Servlet App. With this application, what you need to do is just to enter two numbers and an operator.
+An operator can be +, -, %,/ and *. After the numbers are entered together with the operator, the user clicks submit, the servlet
+process and then send a respone to the user with correct answer. Let's say the user enter 3 as first number, + as operator and 6 as
+the second number the response will be 3.0 + 6.0 is: 9.0.
