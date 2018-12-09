@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class ArithmeticServlet extends HttpServlet{
-	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
+	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
 		double i = Double.parseDouble(req.getParameter("num1"));
 		String operator = req.getParameter("operator");
 		double j = Double.parseDouble(req.getParameter("num2"));

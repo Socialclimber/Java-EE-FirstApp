@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class DivisionServlet extends HttpServlet{
-	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException {
+	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		double i = Integer.parseInt(req.getParameter("num1"));
 		double j = Integer.parseInt(req.getParameter("num2"));
 		double result = i+j;
