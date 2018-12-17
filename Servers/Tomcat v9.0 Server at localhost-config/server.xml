@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="ArithmeticApp" path="/ArithmeticApp" reloadable="true" source="org.eclipse.jst.jee.server:ArithmeticApp"/><Context docBase="RequestDispatcherExample" path="/RequestDispatcherExample" reloadable="true" source="org.eclipse.jst.jee.server:RequestDispatcherExample"/><Context docBase="SendRedirectExample" path="/SendRedirectExample" reloadable="true" source="org.eclipse.jst.jee.server:SendRedirectExample"/><Context docBase="UsingSessionExample" path="/UsingSessionExample" reloadable="true" source="org.eclipse.jst.jee.server:UsingSessionExample"/><Context docBase="CookiesEsample" path="/CookiesEsample" reloadable="true" source="org.eclipse.jst.jee.server:CookiesEsample"/><Context docBase="AnnotationsExample" path="/AnnotationsExample" reloadable="true" source="org.eclipse.jst.jee.server:AnnotationsExample"/><Context docBase="JSPAddExample" path="/JSPAddExample" reloadable="true" source="org.eclipse.jst.jee.server:JSPAddExample"/><Context docBase="JSPLoginForm" path="/JSPLoginForm" reloadable="true" source="org.eclipse.jst.jee.server:JSPLoginForm"/><Context docBase="JSPTemperatureConverter" path="/JSPTemperatureConverter" reloadable="true" source="org.eclipse.jst.jee.server:JSPTemperatureConverter"/></Host>
+      <Context docBase="ExpressionLanguageWithJSP" path="/ExpressionLanguageWithJSP" reloadable="true" source="org.eclipse.jst.jee.server:ExpressionLanguageWithJSP"/></Host>
     </Engine>
   </Service>
 </Server>
